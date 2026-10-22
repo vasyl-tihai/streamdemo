@@ -1,0 +1,1 @@
+import{v as e}from"./bHohyphK.js";function t(){let t=e().app.baseURL||`/`,n=t.endsWith(`/`)?t:`${t}/`;return e=>e?/^(https?:)?\/\//.test(e)||e.startsWith(`data:`)?e:n+e.replace(/^\/+/,``):``}export{t};
